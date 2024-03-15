@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "declaration": false,
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./build",
+    "paths": {
+      "@core": ["./core/index"]
+    }
+  },
+  "files": ["./index.d.ts"],
+  "include": ["app/**/*", "index.ts"],
+  "exclude": ["build/**/*"]
+}

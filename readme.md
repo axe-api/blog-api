@@ -2,6 +2,8 @@
 
 This is an [Axe API](https://axe-api.com/getting-started/introduction/) project.
 
+[Axe API: Redefining Rest API Development](https://kommunity.com/istanbul-javascript-toplulugu/events/axe-api-redefining-rest-api-development-c0daa952)
+
 ## Resources
 
 - `users/:id`

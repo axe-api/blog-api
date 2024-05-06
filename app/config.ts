@@ -32,8 +32,9 @@ const config: IApplicationConfig = {
     },
   },
   cache: {
-    enable: false,
+    enable: true,
     ttl: 60,
+    invalidation: CacheStrategies.TagBased,
   },
 };
 
